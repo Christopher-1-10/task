@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    background-color: rgb(255, 56, 89);
+    padding: 10px;
+    font-size: 22px;
+
+}
+.container{
+    padding: 15px;
+    
+}
+.book-container{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 25%;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.book-container h2{
+    color:  rgb(255, 56, 89);
+}
+.btn{
+    color: black;
+    background-color:  rgb(255, 56, 89);
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.book-form{
+    width: 35%;
+    background-color: rgb(255, 56, 89);
+    padding: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+
+}
+
+.book-title-input{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    margin-bottom: 5px;
+
+}
+.book-title-input:focus{
+    outline: none;
+
+}
+.book-author-input:focus{
+    outline: none;
+    
+}
+.book-textarea-input:focus{
+    outline: none;
+    
+}
+.book-author-input{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    margin-bottom: 5px;
+}
+.book-author-input::placeholder{
+    color: black;
+    font-size: 15px;
+}
+.book-title-input::placeholder{
+    color: black;
+    font-size: 15px;
+}
+.book-textarea-input::placeholder{
+    color: black;
+    font-size: 15px;
+}
+.book-textarea-input{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border: 2px solid black;
+    background: transparent;
+    margin-bottom: 5px;
+    height: 55px;
+}
+#add-book{
+    padding: 7px 14px;
+    background-color: black;
+    color: white;
+    border: none;
+
+}
+#cancel-book{
+    padding: 7px 14px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.overlay{
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    z-index: 0;
+    display: none;
+
+
+}
+.add-btn{
+    background-color: rgb(255, 56, 89);
+    border-radius: 100%;
+    padding: 20px 35px;
+    border: none;
+    font-size: 40px;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+
+
+}
